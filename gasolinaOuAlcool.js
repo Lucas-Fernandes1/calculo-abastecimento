@@ -14,7 +14,7 @@ const rentabilidadeAlcoolOuGasolina = () => {
     }
 
     if (valorVantagem < 1.30) {
-        outResult.textContent = "Não há vantagem em abastecer com etanol, para que hava vantagem o preço da gasolina deve ser menor que: R$ " + valorParaVantagem().toFixed(2).replace(".", ",");
+        outResult.textContent = "Não há vantagem em abastecer com etanol, para que hava vantagem o preço do Etanol deve ser menor que: R$ " + valorParaVantagem().toFixed(2).replace(".", ",");
     } else {
         outResult.textContent = "É mais vantajoso bastecer com etanol.";
     }
